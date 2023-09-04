@@ -14,6 +14,36 @@ public class MyMathGusarov {
             return one;
         }
     }
+    public static int min(int one, int two) {
+        if (one > two) {
+            return two;
+        } else if (one == two) {
+            System.out.println("Числа равны");
+            return one;
+        } else {
+            return one;
+        }
+    }
+    public static float min(float one, float two) {
+        if (one > two) {
+            return two;
+        } else if (one == two) {
+            System.out.println("Числа равны");
+            return one;
+        } else {
+            return one;
+        }
+    }
+    public static long min(long one, long two) {
+        if (one > two) {
+            return two;
+        } else if (one == two) {
+            System.out.println("Числа равны");
+            return one;
+        } else {
+            return one;
+        }
+    }
 
     public static double arcSin(double x) {
         double result = x;
@@ -24,14 +54,13 @@ public class MyMathGusarov {
             sign = -sign;
             result += sign * term;
         }
-        System.out.println(result);
         return result;
     }
 
     public static double arcCos(double x) {
         double asinResult = arcSin(x);
         double result = PI / 2.0 - asinResult;
-        System.out.println(result);
+
         return result;
     }
 
@@ -44,7 +73,7 @@ public class MyMathGusarov {
             term += -x * x;
             sign = -sign;
         }
-        System.out.println(result);
+
         return result;
     }
 
