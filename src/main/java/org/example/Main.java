@@ -6,8 +6,11 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-
+        System.out.println(MyMathGusarov.min(MyMathGusarov.PI,MyMathGusarov.E));
+        MyMathGusarov.arcSin(1);
+        MyMathGusarov.arcCos(1);
+        MyMathGusarov.arcTan(1);
+        MyMathGusarov.pCircle(1);
+        MyMathGusarov.sCircle(1);
     }
 }
